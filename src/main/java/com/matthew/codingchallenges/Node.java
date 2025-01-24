@@ -1,8 +1,9 @@
+package com.matthew.codingchallenges;
 
-public class Node {//a class is a data type , complex structure  data type
+public class Node { //a class is a data type , complex structure  data type
 
     Node next = null; // this is my arrows (instances )
-    Integer data;  // this is the values inside the box aka attribute (instances)
+    int data;  // this is the values inside the box aka attribute (instances)
 
     /* you dont want to directly give anyting to data but instead you pass over a value in your constructor function 
      and pass over that value like line 9
@@ -23,7 +24,7 @@ public class Node {//a class is a data type , complex structure  data type
         // is an attribute and animal. gender = male 
     }
 
-    Node deleteNode(Node head, int d) {
+    public static Node deleteNode(Node head, int d) {
         Node n = head;
         if (n.data == d) {
             return head.next;
