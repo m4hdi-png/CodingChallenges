@@ -1,2 +1,3 @@
-# CodingChallenges-
-to do java and coding challenges
+# CodingChallenges
+
+This repo is for learning Java and doing coding exercises.
